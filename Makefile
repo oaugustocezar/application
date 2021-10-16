@@ -1,4 +1,4 @@
 all: printy
 
-printy: main.o
+printy: Client.c
 	gcc -o printy Client.c
